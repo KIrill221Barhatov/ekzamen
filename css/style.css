@@ -1,0 +1,289 @@
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+ul {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.menu {
+    display: flex;
+}
+.menu ul {
+    display: flex;
+    margin-top: 120px;
+    margin-left: 700px;
+}
+.menu li {
+    padding-right: 40px;
+}
+.menu a {
+    font-size: 1.5rem;
+}
+.menu a:hover {
+    color: green;
+    border-top: 1px solid green;
+    border-bottom:1px solid green ;
+}
+.center {
+    text-align: center;
+    margin-top: 200px;
+    font-size: 3rem;
+}
+.flex-elem {
+    margin-top: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 3rem;
+  
+
+
+}
+.flex-elem p:hover {
+    color: brown;
+    font-size: 4rem;
+}
+.Kompany {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 3em;
+}
+.deviz {
+    margin-top: 100px;
+    text-align: center;
+    font-size: 3rem;
+}
+.flex-deviz {
+    display: flex;
+justify-content: space-around;
+align-items: center;
+margin-top: 130px;
+}
+.title-diviz {
+    font-size: 3rem;
+}
+.otziv {
+    margin-top: 40px;
+    text-align: center;
+    font-size: 3rem;
+}
+.man-otziv img {
+border-radius: 100%;
+}
+.otziv-flex {
+    display: flex;
+   justify-content: space-around;
+}
+.man-otziv p {
+text-align: center;
+margin-bottom: 40px;
+margin-top: 90px;
+font-size: 1.4rem;
+}
+.man-otziv img {
+margin-left: 70px;
+}
+.serch {
+    text-align: center;
+    margin-top: 100px;
+}
+.region, .data,.colich, .level {
+    margin-bottom: 40px;
+
+}
+.region input {
+        width: 241px;
+    height: 52px;
+}
+.data input {
+    width: 241px;
+    height: 52px;
+}
+.colich input {
+    width: 241px;
+    height: 52px;
+}
+.level input {
+    width: 241px;
+    height: 52px;
+}
+.button a {
+    border: 1px solid black;
+    background-color: black; 
+    color: white;
+    padding: 10px 40px;
+}
+.promotion {
+    margin-top: 150px;
+    text-align: center;
+    font-size: 3rem;
+}
+.flex-promotion {
+    display: flex;
+    margin-top: 140px;
+    align-items: center;
+    justify-content: center;
+}
+.text-promotion {
+    margin-left: 100px;
+    font-size: 2rem;
+}
+.button-promotion {
+    margin-top: 40px;
+    text-align: center;
+}
+.button-promotion a {
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+    padding: 10px 30px;
+}
+.close-promotion {
+    margin-top: 200px;
+    text-align: center;
+    font-size: 3rem;
+}
+.E-mail input {
+    width: 323px;
+    height: 61px;
+  
+}
+.E-mail {
+    margin-top: 50px;
+    text-align: center;
+}
+.button-email a {
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+    padding: 10px 30px;
+}
+.button-email {
+    margin-top: 50px;
+    text-align: center;
+    margin-bottom: 120px;
+}
+.back-footer {
+    background-color: black;
+}
+.call-footer {
+    color: white;
+
+}
+.menu-footer a {
+    color: white;
+}
+.flex-footer {
+padding-top: 100px;
+    display: flex;
+    align-items: center;
+padding-bottom: 100px;
+justify-content: space-around;
+
+}
+.menu-footer li {
+    margin-bottom: 20px;
+}
+.text-algin {
+    margin-top: 40px;
+    text-align: center;
+    
+}
+.region-serch input {
+width: 200px;
+height: 30px;
+}
+.name-marshrit input {
+    width: 200px;
+height: 30px;
+}
+.dificalt-marshrut input {
+    width: 200px;
+    height: 30px;
+}
+.data-pohoda input {
+    width: 200px;
+    height: 30px;
+}
+.interesing-zone input {
+    width: 200px;
+    height: 30px;
+}
+.region-serch {
+    margin-bottom: 40px;
+}
+.name-marshrit {
+    margin-bottom: 40px;
+}
+.dificalt-marshrut {
+    margin-bottom: 40px;
+}
+.data-pohoda {
+    margin-bottom: 40px;
+}
+.interesing-zone {
+    margin-bottom: 47px;
+}
+.flex-seat {
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+}
+.text-seat {
+    font-size: 2rem;
+    margin-left: 50px;
+}
+.img-seat {
+    margin-left: 40px;
+}
+.button-seat a{
+border: 1px solid black;
+background-color: black;
+color: white;
+padding: 30px 60px;
+font-size: 2rem;
+}
+.button-seat {
+    margin-top: 50px;
+    text-align: center;
+    margin-bottom: 120px;
+}
+.booking-region input {
+    width: 200px;
+    height:40px;
+    margin-bottom: 30px;
+}
+.name-marshrit-booking input {
+    width: 200px;
+    height:40px;
+    margin-bottom: 30px;
+}
+.zone-for-marshrut input {
+    width: 200px;
+    height:40px;
+    margin-bottom: 30px;
+}
+.date-pohode input {
+    width: 200px;
+    height:40px;
+    margin-bottom: 30px;
+}
+.call-man input {
+    width: 200px;
+    height:40px;
+    margin-bottom: 30px;
+}
+.buy input {
+    width: 200px;
+    height:40px;
+    margin-bottom: 30px;
+}
+.text-booking {
+    text-align: center;
+    margin-top: 40px;
+}
